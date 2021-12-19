@@ -1,20 +1,19 @@
 .App {
   height: 100vh;
-  background-color: #0d1116;
-  overflow: scroll;
   text-align: center;
 }
 
 .container {
   height: 100%;
-  background-color: #0d1116;
+background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .header-container {
-  padding-top: 30px;
+  padding: 30px;
 }
 
 .header {
@@ -36,7 +35,7 @@
 }
 
 .cta-button {
-  height: 45px;
+  height: 150px;
   border: 0;
   width: auto;
   padding-left: 40px;
@@ -46,6 +45,7 @@
   font-size: 16px;
   font-weight: bold;
   color: white;
+  margin: 150px 0;
 }
 
 .connect-wallet-button {
@@ -87,6 +87,7 @@
   color: white;
   font-size: 16px;
   font-weight: bold;
+  text-decoration: none;
 }
 
 /* KeyFrames */
